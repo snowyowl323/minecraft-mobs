@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import mobData from "./assets/mob-data.json";
+import FilteredList from './components/FilteredList';
+
+mobData.forEach((item) => {
+  item.image = process.env.PUBLIC_URL + "/" + item.image;
+});
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Minecraft Mob Viewer</h1>
+      <FilteredList data={mobData} />
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Skeleton",
+        "description": "Shoots arrows at Players and Golems. Can pick up weapons and armor. Drops bones and arrows on death.",
+        "height": 1.9,
+        "health": 20,
+        "type": "Hostile",
+        "dimension": "Overworld",
+        "image": "images/skeleton.png"
+    },
+    {
+        "name": "Zombie",
+        "description": "Walks towards and attacks Players and Golems. Can pick up weapons and armor. Drops rotten flesh on death.",
+        "height": 1.95,
+        "health": 20,
+        "type": "Hostile",
+        "dimension": "Overworld",
+        "image": "images/zombie.png"
+    },
+    {
+        "name": "Large Slime",
+        "description": "Jumps towards and attacks Players and Golems. Splits into Medium Slime on death.",
+        "height": 2.04,
+        "health": 16,
+        "type": "Hostile",
+        "dimension": "Overworld",
+        "image": "images/large-slime.png"
+    },
+    {
+        "name": "Medium Slime",
+        "description": "Jumps towards and attacks Players and Golems. Splits into Small Slime on death.",
+        "height": 1.02,
+        "health": 4,
+        "type": "Hostile",
+        "dimension": "Overworld",
+        "image": "images/medium-slime.png"
+    },
+    {
+        "name": "Small Slime",
+        "description": "Jumps towards Players and Golems. Drops slime balls on death.",
+        "height": 0.51,
+        "health": 1,
+        "type": "Hostile",
+        "dimension": "Overworld",
+        "image": "images/small-slime.png"
+    },
+    {
+        "name": "Bat",
+        "description": "Flies around randomly. Spawn in low light levels.",
+        "height": 0.9,
+        "health": 6,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/bat.png"
+    },
+    {
+        "name": "Squid",
+        "description": "Swims around in water. Spawn in rivers and oceans. Drops ink sacs on death.",
+        "height": 0.95,
+        "health": 10,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/squid.png"
+    },
+    {
+        "name": "Sheep",
+        "description": "Can be sheared for wool. Drop mutton and wool on death. Attracted to players holding wheat.",
+        "height": 1.3,
+        "health": 8,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/sheep.png"
+    },
+    {
+        "name": "Zombified Piglin",
+        "description": "Passive unless attacked. Drop gold upon death.",
+        "height": 1.95,
+        "health": 20,
+        "type": "Neutral",
+        "dimension": "Nether",
+        "image": "images/zombified-piglin.png"
+    },
+    {
+        "name": "Enderman",
+        "description": "Passive unless looked in the eye by a player. Drop ender pearls upon death.",
+        "height": 2.9,
+        "health": 40,
+        "type": "Neutral",
+        "dimension": "End",
+        "image": "images/enderman.png"
+    },
+    {
+        "name": "Cow",
+        "description": "Can be milked with a bucket. Drops raw beef and leather on death. Attracted to players holding wheat.",
+        "height": 1.4,
+        "health": 10,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/cow.png"
+    },
+    {
+        "name": "Pig",
+        "description": "Drops raw porkchop on death. Attracted to players holding carrots.",
+        "height": 0.9,
+        "health": 10,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/pig.png"
+    },
+    {
+        "name": "Strider",
+        "description": "Drops string on death. Rideable with a saddle.",
+        "height": 1.7,
+        "health": 20,
+        "type": "Passive",
+        "dimension": "Nether",
+        "image": "images/strider.png"
+    },
+    {
+        "name": "Shulker",
+        "description": "Drops shulker shells on death. Shoots projectiles at Players.",
+        "height": 1,
+        "health": 30,
+        "type": "Hostile",
+        "dimension": "End",
+        "image": "images/shulker.png"
+    },
+    {
+        "name": "Hoglin",
+        "description": "Drops raw porkchop and leather on death. Attacks players and piglins.",
+        "height": 1.4,
+        "health": 40,
+        "type": "Hostile",
+        "dimension": "Nether",
+        "image": "images/hoglin.png"
+    },
+    {
+        "name": "Wolf",
+        "description": "Attack players if hit by player. Can be tamed with bones.",
+        "height": 0.85,
+        "health": 8,
+        "type": "Neutral",
+        "dimension": "Overworld",
+        "image": "images/wolf.png"
+    },
+    {
+        "name": "Axolotl",
+        "description": "Can be tamed with buckets of fish. Attack fish and guardians.",
+        "height": 0.42,
+        "health": 14,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/axolotl.png"
+    },
+    {
+        "name": "Chicken",
+        "description": "Drops raw chicken and feathers on death. Attracted to players holding seeds.",
+        "height": 0.7,
+        "health": 2,
+        "type": "Passive",
+        "dimension": "Overworld",
+        "image": "images/chicken.png"
+    }
+]

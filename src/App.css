@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 7rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-groups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.button-group {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter-button {
+    width: 16rem;
+    height: 4.5rem;
+    font-size: 1.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #8df98a;
+}
+
+.inactive {
+    background-color: #f98a8a;
+}
+
+.favorites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.moblist {
+    width: 20rem;
+}
+
+.moblist-items {
+    font-size: 1.25rem;
+    margin: 0.5rem;
+}
+
+.total-height {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+}
+
+.mobIconList {
+    margin: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tile {
+    display: flex;
+    height: 28rem;
+    width: 80rem;
+    background-color: #efefef;
+    justify-content: space-around;
+
+    padding: 2rem 0 2rem 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.tile-text {
+    width: 55rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tile-header {
+    font-size: 4rem;
+    margin: 0 0 1rem 0;
+}
+
+.tile-paragraph {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.tile-stats {
+    margin-bottom: 0.25rem;
+}
+
+.tile-button {
+    width: 18rem;
+    height: 4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    /* background-color: #dfdfdf; */
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: auto;
 }
