@@ -45,8 +45,8 @@ const FilteredList = (props) => {
     }
 
     const updateTotals = (newHeight, newHealth) => {
-        setTotalHeight(Math.max(totalHeight + newHeight, 0))
-        setTotalHealth(Math.max(totalHealth + newHealth, 0))
+        setTotalHeight(Math.round((totalHeight + newHeight) * 100) / 100);
+        setTotalHealth(Math.round((totalHealth + newHealth) * 100) / 100);
     }
 
     return (
