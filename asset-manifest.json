@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/minecraft-mobs/static/css/main.eec9b562.css",
-    "main.js": "/minecraft-mobs/static/js/main.25a38eba.js",
+    "main.js": "/minecraft-mobs/static/js/main.f8223dca.js",
     "index.html": "/minecraft-mobs/index.html",
     "main.eec9b562.css.map": "/minecraft-mobs/static/css/main.eec9b562.css.map",
-    "main.25a38eba.js.map": "/minecraft-mobs/static/js/main.25a38eba.js.map"
+    "main.f8223dca.js.map": "/minecraft-mobs/static/js/main.f8223dca.js.map"
   },
   "entrypoints": [
     "static/css/main.eec9b562.css",
-    "static/js/main.25a38eba.js"
+    "static/js/main.f8223dca.js"
   ]
 }
